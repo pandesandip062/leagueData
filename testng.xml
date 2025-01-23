@@ -1,0 +1,17 @@
+<?xml version ="1.0"  encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All test Suite">
+    <listeners>
+        <listener class-name="app.report.ExtentReportListner"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:\Users\Admin\Desktop\spring boot\LeagudeData\src\test\java\com\tests\LoginTest.java">
+        <classes>
+            <class name="app.tests.LoginTest">
+                <methods>
+                    <include name="loginWithValidateUserNameAndValidPassword"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
