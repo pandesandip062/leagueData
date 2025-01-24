@@ -24,8 +24,8 @@ public class LoginTest extends BaseTest {
     public void loginWithValidateUserNameAndValidPassword() throws IOException, InterruptedException {
         LoginPage loginPage = new LoginPage();
         loginPage.loginApplication(TestDataLoader.getInstance().getUsername(), TestDataLoader.getInstance().getPassword());
-
-
+          Assert.fail();
+     
 
 
 
